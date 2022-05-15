@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
 
+[Ссылка на проект](https://nbirdie.github.io/russian-travel/index.html)
+
 ### Обзор
 * Интро
 * Figma
