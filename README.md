@@ -4,7 +4,7 @@
 * Интро
 * Figma
 * Картинки
-
+[Ссылка на проект]( https://nbirdie.github.io/russian-travel/index.html)
 **Интро**
 
 Здесь будет проект о путешествии по России.
