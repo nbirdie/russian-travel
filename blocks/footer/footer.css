@@ -3,6 +3,14 @@
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 24px;
+    margin-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+    .footer {
+        margin-left: 24px;
+    }
 }
 
 @media screen and (max-width: 425px) {
