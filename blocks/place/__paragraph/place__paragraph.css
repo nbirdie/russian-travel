@@ -1,0 +1,29 @@
+.place__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    grid-area: paragraph;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .place__paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        max-width: 484px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .place__paragraph {
+        margin: 0 16px;
+        justify-self: center;
+    }
+}

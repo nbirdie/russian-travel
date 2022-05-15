@@ -1,0 +1,29 @@
+.cover {
+    text-align: center;
+    max-width: 1184px;
+    margin-bottom: 92px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .cover {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .cover {
+        max-width: 768px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+    .cover {
+        min-width: 320px;
+        margin-bottom: 64px;
+    }
+}

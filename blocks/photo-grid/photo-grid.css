@@ -1,0 +1,41 @@
+.photo-grid {
+    display: grid;
+    max-width: 1184px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    grid-template-rows: 1fr;
+    margin: 0 48px;
+    grid-auto-flow: row;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .photo-grid {
+        max-width: 928px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .photo-grid {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        grid-template-rows: 1fr;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+    .photo-grid {
+        max-width: 288px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        grid-template-rows: 1fr;
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,18 @@
+.header__logo {
+    width: 176px;
+    height: 52px;
+    position: absolute;
+    top: 28px;
+    left: 48px;
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+    .header__logo {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        width: 142px;
+        height: 42px;
+    }
+}

@@ -1,0 +1,36 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-gap: 48px 40px;
+    grid-template-areas: "title url" "image paragraph";
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .place {
+        grid-template-columns: 440px 1fr;
+        grid-gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .place {
+        margin-bottom: 73px;
+        grid-template-columns: 340px 1fr;
+        grid-gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .place {
+        margin-bottom: 50px;
+        margin-left: 0;
+        grid-template-columns: minmax(288px, 1fr);
+        grid-gap: 32px;
+        grid-template-areas: "title" "url" "image" "paragraph";
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+    .footer {
+        margin-left: 16px;
+        min-width: 186px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,26 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: 92px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .intro {
+        margin: 88px 24px 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+    .intro {
+        margin: 64px 16px 64px;
+    }
+}

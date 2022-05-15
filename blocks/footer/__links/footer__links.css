@@ -1,0 +1,15 @@
+.footer__links {
+    display: flex;
+    max-width: 1184px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+}
