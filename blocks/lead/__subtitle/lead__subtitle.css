@@ -1,6 +1,5 @@
 .lead__subtitle {
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -20,8 +19,7 @@
 @media screen and (max-width: 425px) {
     /* стили для широкого смартфона */
     .lead__subtitle {
-        width: 288px;
-        height: 40px;
+        max-width: 288px;
         margin: 16px 0 40px 0;
         font-style: normal;
         font-weight: 400;
