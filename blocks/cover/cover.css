@@ -1,8 +1,9 @@
 .cover {
+    align-items: center;
     text-align: center;
     max-width: 1184px;
     margin-bottom: 92px;
-    padding: 0;
+    padding: 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
