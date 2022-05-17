@@ -1,25 +1,26 @@
 .intro__list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 150%;
-    color: #FFFFFF;
-    max-width: 690px;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
-    .intro__list {
-        max-width: 720px;
-    }
+  /* стили для планшета */
+  .intro__list {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    /* стили для широкого смартфона */
-    .intro__list {
-        max-width: 288px;
-    }
+  /* стили для широкого смартфона */
+  .intro__list {
+    max-width: 288px;
+  }
 }

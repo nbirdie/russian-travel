@@ -1,28 +1,28 @@
-    .places {
-        max-width: 984px;
-        margin: 92px auto;
-        padding: 0 148px;
-    }
-    
-    @media screen and (max-width: 1024px) {
-        /* стили для планшета в альбомной ориентации */
-        .places {
-            padding: 0 48px;
-        }
-    }
-    
-    @media screen and (max-width: 768px) {
-        /* стили для планшета */
-        .places {
-            margin: 88px auto 90px;
-            padding: 0 24px;
-        }
-    }
-    
-    @media screen and (max-width: 425px) {
-        /* стили для широкого смартфона */
-        .places {
-            margin: 64px auto 66px;
-            padding: 0;
-        }
-    }
+.places {
+  max-width: 984px;
+  margin: 92px auto;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+  .places {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .places {
+    margin: 88px auto 90px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+  .places {
+    margin: 64px auto 66px;
+    padding: 0;
+  }
+}

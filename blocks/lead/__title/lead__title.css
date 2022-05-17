@@ -1,20 +1,21 @@
 .lead__title {
-    max-width: 720px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 104%;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0;
+  max-width: 720px;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 425px) {
-    /* стили для широкого смартфона */
-    .lead__title {
-        max-width: 288px;
-        font-size: 40px;
-        line-height: 44px;
-    }
+  /* стили для широкого смартфона */
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

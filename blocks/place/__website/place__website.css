@@ -1,13 +1,13 @@
 .place__website {
-    grid-area: url;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  grid-area: url;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 @media screen and (max-width: 425px) {
-    /* стили для планшета */
-    .place__website {
-        margin-left: 16px;
-    }
+  /* стили для планшета */
+  .place__website {
+    margin-left: 16px;
+  }
 }
