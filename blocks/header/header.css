@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 1184px;
   margin: 28px 48px 0 48px;
 }
 
@@ -18,5 +19,6 @@
   /* стили для широкого смартфона */
   .header {
     margin: 16px 16px 0 16px;
+    min-width: 288px;
   }
 }
