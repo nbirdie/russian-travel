@@ -5,22 +5,23 @@
   margin-bottom: 24px;
   margin-left: 48px;
   padding: 0;
+  margin-right: 48px;
 }
 
 @media screen and (max-width: 768px) {
   /* стили для широкого смартфона */
   .footer {
     margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 620px) {
   /* стили для широкого смартфона */
   .footer {
     margin-left: 16px;
-    min-width: 186px;
+    max-width: 186px;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: space-between;
   }
 }

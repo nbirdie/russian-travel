@@ -4,8 +4,19 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 114%;
-  /* identical to box height, or 114% */
   color: #ffffff;
   margin: 0;
   padding: 0;
+  align-self: end;
+  text-align: end;
+  width: 100%;
+  padding: 0;
+}
+
+@media screen and (max-width: 620px) {
+  /* стили для планшета */
+  .footer__copyright {
+    margin-left: 16px;
+    text-align: start;
+  }
 }

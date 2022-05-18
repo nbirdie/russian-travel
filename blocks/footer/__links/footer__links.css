@@ -5,10 +5,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 620px) {
   /* стили для широкого смартфона */
   .footer__links {
-    display: flex;
     flex-direction: column;
     margin-bottom: 48px;
   }

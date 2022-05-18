@@ -25,7 +25,6 @@
 @media screen and (max-width: 425px) {
   /* стили для широкого смартфона */
   .cover {
-    min-width: 320px;
     margin-bottom: 64px;
   }
 }

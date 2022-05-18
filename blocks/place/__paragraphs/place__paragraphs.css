@@ -1,0 +1,13 @@
+.place__paragraphs {
+    grid-area: paragraph;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 620px) {
+    /* стили для планшета */
+    .place__paragraphs {
+      margin-left: 16px;
+      justify-self: center;
+    }
+  }
