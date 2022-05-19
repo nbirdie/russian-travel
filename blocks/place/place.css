@@ -18,7 +18,7 @@
 @media screen and (max-width: 1023px) {
   /* стили для планшета */
   .place {
-    margin-bottom: 73px;
+    margin-bottom: 71px;
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
   }
@@ -30,5 +30,6 @@
     grid-template-columns: minmax(288px, 1fr);
     grid-gap: 32px;
     grid-template-areas: "title" "url" "image" "paragraph";
+    margin-bottom: 49px;
   }
 }
