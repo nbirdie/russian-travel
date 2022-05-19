@@ -3,14 +3,23 @@
   justify-content: space-between;
   align-items: flex-end;
   max-width: 1184px;
-  margin: 25px 48px 0 50px;
+  margin: 25px auto 0;
   padding: 0;
+  width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  /* стили для планшета */
+  .header {
+    max-width: 928px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   /* стили для планшета */
   .header {
-    margin: 28px 24px 0 24px;
+    margin: 28px auto 0;
     max-width: 768px;
   }
 }
@@ -18,7 +27,7 @@
 @media screen and (max-width: 425px) {
   /* стили для широкого смартфона */
   .header {
-    margin: 16px 16px 0 16px;
+    margin: 16px auto 0;
     max-width: 288px;
   }
 }

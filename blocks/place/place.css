@@ -7,7 +7,7 @@
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   /* стили для планшета в альбомной ориентации */
   .place {
     grid-template-columns: 440px 1fr;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   /* стили для планшета */
   .place {
     margin-bottom: 73px;
@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   /* стили для планшета */
   .place {
     margin-bottom: 50px;
