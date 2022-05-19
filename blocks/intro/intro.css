@@ -1,27 +1,31 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 92px 148px;
+  margin: 92px auto;
+  max-width: 984px;
+  width: 100%;
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   /* стили для планшета в альбомной ориентации */
   .intro {
-    margin-left: 48px;
+    max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* стили для планшета */
   .intro {
-    margin: 88px 24px 88px;
+    max-width: 720px;
+    margin: 88px auto 88px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   /* стили для широкого смартфона */
   .intro {
-    margin: 64px 16px 64px;
+    margin: 64px auto 64px;
+    max-width: 288px;
   }
 }

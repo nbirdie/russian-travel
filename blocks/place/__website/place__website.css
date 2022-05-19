@@ -6,8 +6,7 @@
   align-items: start;
 }
 
-@media screen and (max-width: 425px) {
-  /* стили для планшета */
+@media screen and (max-width: 767px) {
   .place__website {
     margin-left: 16px;
   }

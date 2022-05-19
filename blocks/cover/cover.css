@@ -2,11 +2,12 @@
   align-items: center;
   text-align: center;
   max-width: 1184px;
-  margin-bottom: 92px;
+  width: 100%;
+  margin: 0 auto 92px;
   padding: 0 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   /* стили для планшета в альбомной ориентации */
   .cover {
     max-width: 1024px;
@@ -14,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* стили для планшета */
   .cover {
     max-width: 768px;
@@ -22,9 +23,10 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   /* стили для широкого смартфона */
   .cover {
+    max-width: 320px;
     margin-bottom: 64px;
   }
 }

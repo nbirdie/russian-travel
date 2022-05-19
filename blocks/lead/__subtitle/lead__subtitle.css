@@ -7,7 +7,7 @@
   line-height: 36px;
   text-align: center;
   color: #ffffff;
-  margin: 32px 0 64px 0;
+  margin: 32px auto 64px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,12 +17,11 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   /* стили для широкого смартфона */
   .lead__subtitle {
-    max-width: 288px;
-    margin: 16px 0 40px 0;
+    margin: 16px auto 40px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
   }
 }

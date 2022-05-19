@@ -8,33 +8,35 @@
   margin-top: 0;
   margin-bottom: 26px;
   padding: 0;
+  max-width: 484px;
 }
 
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   /* стили для планшета */
   .place__paragraph {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    max-width: 484px;
+    max-width: 456px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* стили для планшета */
   .place__paragraph {
+    max-width: 352px;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   /* стили для планшета */
   .place__paragraph {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-bottom: 25px;
+    max-width: 288px;
   }
 }

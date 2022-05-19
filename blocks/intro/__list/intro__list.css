@@ -10,17 +10,3 @@
   color: #ffffff;
   max-width: 690px;
 }
-
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
-  .intro__list {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  /* стили для широкого смартфона */
-  .intro__list {
-    max-width: 288px;
-  }
-}
